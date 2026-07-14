@@ -1,0 +1,64 @@
+# Python virtual environment
+venv/
+.venv/
+
+# Environment variables / secrets
+.env
+.env.*
+!.env.example
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Package managers
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Build files
+build/
+dist/
+*.egg-info/
+
+# IDE
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Hugging Face model cache
+.cache/
+huggingface/
+~/.cache/
+
+# Qdrant local storage (if running locally)
+qdrant_storage/
+storage/
+
+# Vector database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Temporary files
+tmp/
+temp/
+
+# Model files
+*.bin
+*.pt
+*.pth
+*.safetensors
+
+# Large documents (optional)
+# Uncomment if you don't want to push PDFs
+# *.pdf
