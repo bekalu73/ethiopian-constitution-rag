@@ -1,18 +1,18 @@
-import os
 from dotenv import load_dotenv
 from langchain_qdrant import QdrantVectorStore
 from langchain_huggingface import HuggingFaceEmbeddings
 
 from openai import OpenAI
 
-load_dotenv()
-
 openai_client = OpenAI(
-    api_key=os.getenv("GEMINI_API_KEY"),
+    api_key="GEMINI_API_KEY",
     base_url="https://generativelanguage.googleapis.com/v1beta/openai/"
 )
 
-MODELS = ["gemini-2.0-flash", "gemini-2.0-flash-lite"]
+MODELS = ["gemini-3.5-flash", "gemini-3.1-flash-lite"];
+
+
+load_dotenv()
 
 
 # Vector Embeddings
