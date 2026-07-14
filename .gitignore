@@ -32,6 +32,9 @@ dist/
 .DS_Store
 Thumbs.db
 
+# Marketing content
+linkedin-post.txt
+
 # Logs
 *.log
 
